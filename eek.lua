@@ -1,3 +1,4 @@
+print("USE INF YIELDS FLOAT")
 function autofarm()
 	for c,da in next, workspace.Alive:GetDescendants() do
 		if (da:FindFirstChildOfClass("Humanoid")) then
