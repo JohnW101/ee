@@ -16,6 +16,6 @@ end
 
 game:GetService"RunService".Stepped:connect(function()
 	autofarm();
-	rot();
+	--rot();
 	nclip();
 end)
